@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.why-choose {
+  min-height: 100vh;
+  background: #fff;
+  padding: 80px 8%;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.why-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 80px;
+  color: #111;
+}
+
+.why-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.why-card {
+  text-align: center;
+}
+
+.icon-circle {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  margin-bottom: 25px;
+  background: #dff9f5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-circle svg {
+  font-size: 28px;
+  color: #e76316;
+}
+
+.why-card h3 {
+  font-size: 1.5rem;
+  color: #444;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.why-card p {
+  color: #8a8a8a;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+@media (max-width: 992px) {
+  .why-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .why-title {
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+  }
+
+  .why-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .why-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .why-card p {
+    font-size: 0.95rem;
+  }
+
+  
+}
