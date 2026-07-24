@@ -24,7 +24,7 @@ function App() {
         <FaArrowUp />
         <span>Go Back</span>
       </a>
-
+      
       
     </>
   );

@@ -1,4 +1,4 @@
-
+import "../components/WhyChooseUs.css";
 import { FaMapMarkerAlt, FaAward, FaGlobeAfrica } from "react-icons/fa";
 
 export default function WhyChooseUs() {
