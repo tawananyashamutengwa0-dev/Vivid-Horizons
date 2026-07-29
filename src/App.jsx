@@ -7,7 +7,7 @@ import ExploreZimbabwe from "./components/ExploreZimbabwe";
 import WhyChooseUs from "./components/WhyChooseUs";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer"; 
-import Newsletter from "./components/Newsletter";
+import Newsletter from "./components/NewsLetter";
 function App() {
   return (
     <>
